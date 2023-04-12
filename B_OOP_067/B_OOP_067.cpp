@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa {
+lass Mahasiswa{
 private:
 	int nim;
 	string nama;
