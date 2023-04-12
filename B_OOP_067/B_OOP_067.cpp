@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-lass Mahasiswa{
+class Mahasiswa {
 private:
 	int nim;
 	string nama;
@@ -16,4 +16,12 @@ public:
 		cin >> nilai;
 	}
 	void printData();
+};
+
+void Mahasiswa::printData() {
+	cout << "\nData Mahasiswa";
+	cout << "\nNIM : " << nim;
+	cout << "\nNamanya : " << nama;
+	cout << "\nNilai : " << nilai;
 }
+
